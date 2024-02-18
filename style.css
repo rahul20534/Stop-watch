@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(76, 237, 199);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+
+#time .digit{
+    font-size: 120px;
+    font-weight: bold;
+}
+
+#time .text{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#btn-container{
+    
+    margin-top: 30px;
+}
+
+.btn{
+    padding: 6px;
+    margin: 15px;
+    width: 80px;
+    font-weight: bold;
+}
+
+#start{
+    background-color: rgb(198, 157, 236);
+    border: 0px white;
+}
+
+#stop{
+    background-color: rgb(243, 241, 111);
+    border: 0px white;
+}
+#reset{
+    background-color: rgb(47, 250, 237);
+    border: 0px white;
+}
+
